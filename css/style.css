@@ -1,0 +1,134 @@
+/* Universal Section */
+.text-center {
+    text-align: center;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+/*Header Section begins here */
+header {
+    background-color: #fff;
+    position: relative;
+}
+
+header h1 {
+    float: left;
+    margin: 0px;
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    float: right;
+    position: relative;
+    top:0px;
+    /*bottom:20px;*/
+    /*right: 10px*/
+    /*left: 50px;*/
+}
+    
+nav>ul {
+    list-style-type: none;
+}
+
+nav>ul>li {
+    display: inline;
+    border: 2px solid #ff99cc;
+    margin: 0px 20px;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+nav>ul>li>a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav>ul>li>a:hover {
+    color: #fff;
+}
+
+/* HERO SECTION BEGINS HERE */
+
+.hero {
+    background-image:url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    padding-top: 175px;
+}
+
+.hero>h1 {
+    margin: 0px;
+    color: #ffff00;
+    text-align: center;
+}
+
+/* SIDEBAR SECTION */
+aside {
+    background-color: #000066;
+    border: 2px solid #fff;
+    width: 30%;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+aside ul li {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+aside ul li:hover {
+    background-color: #ffff00;
+    border: 1px dotted #fff;
+}
+
+aside ul li:hover a {
+    color: #000066;
+    font-weight: 700;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+/*MAIN SECTION */
+
+main {
+    float: right;
+    width: 70%;
+    height: 400px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+/*FOOTER SECTION */
+
+footer {
+    height: 120px;
+    background: #98fb98;
+    clear: both;
+}
+
+.social-media {
+    padding-top: 35px;
+    text-align: center;
+}
+
+.social-media .fa {
+    color: #fff;
+    font-size: 2em;
+}
+
